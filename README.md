@@ -47,6 +47,6 @@ pour d'autres (configuration-geo) ; la raison en est simplement qu'être exhaust
 
 ### Storage vMotion
 
-Cette option est très pertinente aussi dans ce cas de figure, j'ai privilégié l'option Geo car c'est l'option native de gitlab-ee omnibus pour le besoin de migration. Egalement, le fait de diposer tout au long du process d'une VM source valide et utilisable est un grand avantage. Ainsi, en cas d'imlprévu, seul le switch DNS est à réaliser.
+Cette option est très pertinente aussi dans ce cas de figure, j'ai privilégié l'option Geo car c'est l'option native de gitlab-ee omnibus pour le besoin de migration. Egalement, le fait de diposer tout au long du process d'une VM source valide et utilisable est un grand avantage. Ainsi, en cas d'imprévu, seul le switch DNS est à réaliser.
 
-Néanmoins, je dois nuancer sur un point : utiliser Storage vMotion eut évité la fenêtre de maintenance déidée à la configuration de Géo.
+Néanmoins, je dois nuancer sur un point : utiliser Storage vMotion eut évité la fenêtre de maintenance dédiée à la configuration de Géo.
