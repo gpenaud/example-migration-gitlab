@@ -20,6 +20,6 @@
 
 A prévoir: 
 
-- Prévoir des relais dans chaque équipes (tech lead, scrum master) pour démultiplier la com, et faire office de proxy pour que les utilisateurs puissent remonter les éventuels problèmes.  
-- Prévoir un canal slack/teams dédié à la migration.
-- En cas de soucis lors de la migration, prévoir un message d'urgence au responsable du pôle IT et aux personnes relai identifiées, avec description du problème et estimation précise de solution.   
+    - Prévoir des relais dans chaque équipes (tech lead, scrum master) pour démultiplier la com, et faire office de proxy pour que les utilisateurs puissent remonter les éventuels problèmes.  
+    - Prévoir un canal slack/teams dédié à la migration.
+    - En cas de soucis lors de la migration, prévoir un message d'urgence au responsable du pôle IT et aux personnes relai identifiées, avec description du problème et estimation précise de solution.   

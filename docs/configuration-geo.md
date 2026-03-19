@@ -16,6 +16,7 @@ Côté communication, un Email + Slack-Teams accompagné d'un bandeau dans gitla
 Avant toute chose, snasphot de la VM source
 
 Puis, pour chaque bloc de configuration (3 ou 4 en tout), voici la procédure à suivre:
+
     - copie horodaté du fichier de configuration
     - modification de la configuration
     - validation syntaxique (via commande gitlab)
