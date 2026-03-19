@@ -18,6 +18,7 @@ pour d'autres (configuration-geo) ; la raison en est simplement qu'être exhaust
 
 | Temps | Étape | VM | Details |
 |-------|-------|----|---------|
+| **J-30** | M'assurer de la disponibilité des équipes infra & sécurité | | dates: J-15, J-7, J |
 | **J-15** | Créer et provisionner la VM | Target | |
 | **J-14** | Créer le playbook informationnel de la VM source | | voir: analyse-prealable.md |
 |          | Créer le repository de validation | | voir: validation.md |
@@ -34,7 +35,9 @@ pour d'autres (configuration-geo) ; la raison en est simplement qu'être exhaust
 | **T-15** | Basculer les DNS | Target ||
 | **T-20** | Validation de l'instance gitlab | Target | voir: validation.md |
 | **T-35** | Création d'un snapshot | Target ||
-| **T-40 ... T-120** | Montées de version | Target | voir: upgrade.md |
+| **T-40** | Désactivation de Geo | Source & Target | Pour empêcher que l'ancienne VM se synchronise |
+| **T-45** | Création d'un snapshot | Target ||
+| **T-50 ... T-120** | Montées de version | Target | voir: upgrade.md |
 | **T-125** | Validation de l'instance gitlab | Target | voir: validation.md |
 | **T-150** | Désactivation du mode maintenance | Target ||
 | **T-155** | Communiquer auprès des équipes || voir: communication.md
