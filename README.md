@@ -32,19 +32,18 @@ pour d'autres (configuration-geo) ; la raison en est simplement qu'être exhaust
 |         | Passer gitlab en read-only | Source ||
 | **T-5** | Attendre la fin de la réplication | Target ||
 | **T-10** | Promotion du secondary en primary | Target ||
-| **T-15** | Basculer les DNS | Target ||
+| **T-15** | Basculer les DNS | Source & Target ||
 | **T-20** | Validation de l'instance gitlab | Target | voir: validation.md |
 | **T-35** | Création d'un snapshot | Target ||
 | **T-40** | Désactivation de Geo | Source & Target | Pour empêcher que l'ancienne VM se synchronise |
 | **T-45** | Création d'un snapshot | Target ||
 | **T-50 ... T-120** | Montées de version | Target | voir: upgrade.md |
 | **T-125** | Validation de l'instance gitlab | Target | voir: validation.md |
-| **T-150** | Désactivation du mode maintenance | Target ||
+| **T-150** | Désactivation du mode maintenance | Source & Target ||
 | **T-155** | Communiquer auprès des équipes || voir: communication.md
 | **T-160** | Création d'un snapshot | Target ||
 | **J+7** | Valider la stabilité | Target ||
 | **J+14** | Décommissionner l'ancien gitlab | Source ||
-
 
 ## Autre options
 
