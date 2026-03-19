@@ -8,15 +8,15 @@
 
 | Temps | Objectif | Canaux | Details |
 |-------|----------|--------|---------|
-| **J-30** | Informer, permet l'anticipation des équipes | Email + Slack/Teams | |
+| **J-30** | Informer, permet l'anticipation des équipes | Email + Slack/Teams |
 | **J-7** | Donner le détail, anticiper les questions | Email + Slack/Teams
-|         | Créer une page de FAQ avec questions récurrentes | | |
-|         | Activer une bannière gitlab avec rappel de la date de migration et lien vers page FAQ | | |
-| **J-2** | Rappel, court & factuel | Email + Slack/Teams | |
-| **J-1** | Rappel, court & factuel | Email + Slack/Teams | |
-| **J-0** | Prévenir du début de la maintenance | Email + Slack/Teams | |
-| **T+?** | Prévenir de la fin de la maintenance | Email + Slack/Teams | |
-| **J+1** | Bilan de migration, pour renforcer la confiance | Email + Slack/Teams | |
+|         | Créer une page de FAQ avec questions récurrentes | |
+|         | Activer une bannière gitlab avec rappel de la date de migration et lien vers page FAQ | |
+| **J-2** | Rappel, court & factuel | Email + Slack/Teams |
+| **J-1** | Rappel, court & factuel | Email + Slack/Teams |
+| **J-0** | Prévenir du début de la maintenance | Email + Slack/Teams |
+| **T+?** | Prévenir de la fin de la maintenance | Email + Slack/Teams |
+| **J+1** | Bilan de migration, pour renforcer la confiance | Email + Slack/Teams |
 
 A prévoir: 
 
