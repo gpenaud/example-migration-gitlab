@@ -18,9 +18,9 @@ pour d'autres (configuration-geo) ; la raison en est simplement qu'être exhaust
 
 | Temps | Étape | VM | Details |
 |-------|-------|----|---------|
-| **J-30** | M'assurer de la disponibilité des équipes infra & sécurité | | dates: J-15, J-7, J |
-| **J-15** | Créer et provisionner la VM | Target | |
-| **J-14** | Créer le playbook informationnel de la VM source | | voir: analyse-prealable.md |
+| **J-21** | M'assurer de la disponibilité des équipes infra & sécurité | | dates: J-15, J-7, J |
+| **J-14** | Créer et provisionner la VM | Target | |
+| **J-13** | Créer le playbook informationnel de la VM source | | voir: analyse-prealable.md |
 |          | Créer le repository de validation | | voir: validation.md |
 |          | Créer la CI du repository de validation | | voir: validation.md |
 |          | Créer le playbook de validation gitlab | | voir: validation.md |
