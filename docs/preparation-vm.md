@@ -72,6 +72,6 @@ Mais vérifier les standards de sécurité:
 
 Gitlab devra être installé à l'exacte même version que celle de la VM source (rhel7) à migrer. 
 
-La structure des données migrées sont relatives à la version du gitlab "source". Si j'installe une evrsion autre que celle du gitlab "source" sur ma VM de destination, les schémas de donénes ne matcheront pas, et le nouveau gitlab ne fonctionnera pas. 
+La structure des données migrées sont relatives à la version du gitlab "source". Si j'installe une version autre que celle du gitlab "source" sur ma VM de destination, les schémas de données ne matcheront pas, et le nouveau gitlab ne fonctionnera pas. 
 
-Nous devons suivre la procédure de migration prévue par gitlab et donc partir de l'edxacte même version que celle d'origine. 
+Nous devons suivre la procédure de migration prévue par gitlab et donc partir de l'exacte même version que celle d'origine. 
