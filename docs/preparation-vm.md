@@ -40,12 +40,18 @@ Côté OS, bien veiller à être sur la version 8.10 (stable) de RHEL
 
 Côté stockage, il faudra environ 8To de disponible ; cela peut semble énorme, mais il faut toujours compter environ 20% de plus que la quantité de data à migrer (7To+1.4To =~ 9To)
 
-Le proxy devra être configuré à plusieurs endroits. Yum doit pouvoir accéder aux package omnibus de gitlab, donc 
+Le proxy devra être configuré à plusieurs endroits. Dnf doit pouvoir accéder aux package omnibus de gitlab, donc 
+    
+    # Dans /etc/dnf/dnf.conf
 
+    [main]  
     proxy=http://proxy.entreprise.com:3128
     proxy_username=USERNAME
     proxy_password=PASWORD
     proxy_auth_method=any
+
+    # Si certificat SSL du proxy (inspection SSL)
+    proxy_sslcacert=/etc/pki/tls/certs/proxy-ca.crt
 
 Mais également gitlab, et particulièrement gitlab-geo, notre outil de migration/replication (configuration liée au fait que la VM source est dans le même réseau)
 
