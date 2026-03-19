@@ -38,7 +38,7 @@ Si rien de tout cela n'existe, j'utilise les informations récoltées dans la pa
 
 Côté OS, bien veiller à être sur la version 8.10 (stable) de RHEL
 
-Côté stockage, il faudra environ 8To de disponible ; cela peut semble énorme, mais il faut toujours compter environ 20% de plus que la quantité de data à migrer (7To+1.4To =~ 9To)
+Côté stockage, il faudra environ 9To de disponible ; cela peut semble énorme, mais il faut toujours compter environ 20% de plus que la quantité de data à migrer (7To+1.4To =~ 9To)
 
 Le proxy devra être configuré à plusieurs endroits. Dnf doit pouvoir accéder aux package omnibus de gitlab, donc 
     
