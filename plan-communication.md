@@ -6,8 +6,8 @@
 **Auteur**: Guillaume Penaud   
 **Mail**: guillaume.penaud@gmail.com
 
-| Temps | Objectif | Canaux | Details |
-|-------|----------|--------|---------|
+| Temps | Objectif | Canaux |
+|-------|----------|--------|
 | **J-30** | Informer, permet l'anticipation des équipes | Email + Slack/Teams |
 | **J-7** | Donner le détail, anticiper les questions | Email + Slack/Teams
 |         | Créer une page de FAQ avec questions récurrentes | |
